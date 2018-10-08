@@ -8,7 +8,8 @@ Binder is the custom form of inter-process communication used by Android. Reques
 `GOOS=linux GOARCH=arm64 go build -ldflags="-s -w"` should build the program and create a `binderlat` file. If you want a smaller build, run `build.sh`.
 
 # Example Output
-```Transaction 13637:13637 took   81.2us; total 371.4ms
+```
+Transaction 13637:13637 took   81.2us; total 371.4ms
 Transaction 13637:13637 took 1834.2us; total 373.3ms
 Transaction   3921:4257 took 2032.5us; total 375.3ms
 Transaction   3921:5540 took  180.3us; total 375.5ms
@@ -95,4 +96,5 @@ Transaction 13637:13637 took 59832.3us; total 1127.3ms
 Transaction   3921:5540 took   84.3us; total 1127.4ms
 Transaction   3493:3493 took   54.0us; total 1127.5ms
 Transaction   3494:3494 took 180606.1us; total 1308.1ms
-Transaction   3921:4091 took   87.7us; total 1308.2ms```
+Transaction   3921:4091 took   87.7us; total 1308.2ms
+```
